@@ -5,7 +5,7 @@ print(shape)
 print("Welcome to the Number Guessing Game!\n"
       "I'm thinking of a number between 1 and 100.")
 
-guessed_number = random.randint(1,101)
+guessed_number = random.randint(1,100)
 player_health = 0
 game_status = True
 
